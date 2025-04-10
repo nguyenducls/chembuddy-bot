@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 def handle_message(update, bot):
     text = update.message.text
