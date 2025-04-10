@@ -2,7 +2,7 @@ from flask import Flask, request
 from bot_logic import handle_message
 import telegram
 
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+TOKEN = "7703253666:AAF2hshsoLhUh_YoyQURMoTGVjVXPL4ruYY"
 bot = telegram.Bot(token=TOKEN)
 
 app = Flask(__name__)
